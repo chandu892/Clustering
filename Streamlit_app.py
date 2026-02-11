@@ -12,7 +12,7 @@ BASE_DIR = os.path.dirname(__file__)
 
 MODEL_PATH = os.path.join(BASE_DIR, "kmeans_model.pkl")
 DATA_PATH = os.path.join(BASE_DIR, "Mall_Customers.csv")
-CLUSTERED_PATH = os.path.join(BASE_DIR, "clustered_mall_customers.csv")
+CLUSTERED_PATH = os.path.join(BASE_DIR, "Clustered_mall_customers.csv")
 
 # ================== PAGE CONFIG ==================
 st.set_page_config(
